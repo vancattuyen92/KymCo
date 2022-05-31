@@ -1,0 +1,22 @@
+.pd {
+    .titlemain {
+        @include text(60px,sfu,70px,$black-cl,normal);
+        text-align: center;
+    }
+    .description {
+        @include text(22px,avo,normal,$black-cl,normal);
+        text-align: center;
+        padding: 20px 0 80px 0;
+        &.--slogan {
+            padding-bottom:50px;
+        }
+    }
+    .left {
+        text-align: left;
+    }
+    .textbox {
+        position: absolute;
+        top: 165px;
+        left: 210px;
+    }
+}

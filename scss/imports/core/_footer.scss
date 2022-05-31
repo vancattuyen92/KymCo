@@ -1,0 +1,30 @@
+footer {
+	padding: 50px 0;
+	background-color:$black-cl;
+	color:white;
+	font-family: avo;
+	margin:auto;
+	justify-content: center;
+	text-align: center;
+	.brand {
+		font-family: sfu;
+		font-size: 30px;
+		letter-spacing: 2px;
+		margin-bottom:50px;
+	}
+	.social {
+		display: flex;
+		margin: 0 45%;
+	}
+	.footer-menu {
+		display: flex;
+		justify-content: space-between;
+		margin: 80px 27% 50px 27%;
+	}
+	.copyright {
+		margin-top:15px;
+	}
+	a {
+		color:white;
+	}
+}

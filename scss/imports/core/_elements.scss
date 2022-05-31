@@ -1,0 +1,47 @@
+a {
+    color: $text-cl;
+    text-decoration: none;
+    //display: block;
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.btndetail {      
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;    
+    padding: 3px 5px;
+    background-color: $red-cl;
+    padding: 5px 20px;
+    border-radius: 20px;
+    @include text(11px,sfu,normal,$white-cl,normal);
+    position: absolute;
+    top:32%;
+    left:3%;
+    &.--centercard {
+        @include text(15px,sfu,normal,$white-cl,normal);
+        padding: 10px 30px;
+        left:11%;
+        top:30%;
+    }
+}
+.btnmore {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 65px;
+    background-color: $red-cl;
+    border-radius: 50px;
+    letter-spacing: 2px;   
+    @include text(25px,sfu,normal,$white-cl,normal);
+    &.--moreproducts {
+        margin-top: 80px;
+        position: absolute;
+        left:50%;
+        transform: translateX(-50%);
+    } 
+}
